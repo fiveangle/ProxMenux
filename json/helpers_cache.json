@@ -3334,7 +3334,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
@@ -4208,7 +4208,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
@@ -6103,7 +6103,7 @@
     ],
     "notes": [],
     "port": 3000,
-    "website": "https://github.com/Pouzor/homelable",
+    "website": "https://homelable.net/",
     "documentation": "https://github.com/Pouzor/homelable/blob/main/INSTALLATION.md",
     "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/homelable.webp",
     "updateable": true,
@@ -14382,6 +14382,36 @@
     "os": ""
   },
   {
+    "name": "Spliit",
+    "slug": "spliit",
+    "desc": "Spliit is a free and open-source alternative to Splitwise for sharing expenses with friends and groups, built with Next.js and PostgreSQL.",
+    "script": "ct/spliit.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/spliit.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/spliit.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00023"
+    ],
+    "category_names": [
+      "Finance & Budgeting"
+    ],
+    "notes": [],
+    "port": 3000,
+    "website": "https://spliit.app/",
+    "documentation": "https://github.com/spliit-app/spliit#readme",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/spliit.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
     "name": "Split Pro",
     "slug": "split-pro",
     "desc": "SplitPro is a self-hosted, open source way to share expenses with friends. It is designed as a replacement for Splitwise.",
@@ -17170,7 +17200,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
