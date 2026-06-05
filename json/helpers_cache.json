@@ -1335,7 +1335,7 @@
       "Authentication & Security"
     ],
     "notes": [],
-    "port": 9000,
+    "port": 9443,
     "website": "https://goauthentik.io/",
     "documentation": "https://docs.goauthentik.io/",
     "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/authentik.webp",
