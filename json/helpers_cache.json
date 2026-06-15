@@ -13474,6 +13474,36 @@
     "os": ""
   },
   {
+    "name": "Rackula",
+    "slug": "rackula",
+    "desc": "Rackula is a drag-and-drop rack layout designer for homelabbers. Visualize your server rack with an offline-ready, mobile-friendly interface. Includes persistence API for cross-browser syncing.",
+    "script": "ct/rackula.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/rackula.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/rackula.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00010"
+    ],
+    "category_names": [
+      "Dashboards & Frontends"
+    ],
+    "notes": [],
+    "port": 80,
+    "website": "https://count.racku.la",
+    "documentation": "https://github.com/RackulaLives/Rackula",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rackula.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
     "name": "Radarr",
     "slug": "radarr",
     "desc": "Radarr is a movie management tool designed for Usenet and BitTorrent users. It allows users to manage and organize their movie collection with ease. Radarr integrates with popular Usenet and BitTorrent clients, such as Sonarr and Lidarr, to automate the downloading and organizing of movie files. The software provides a web-based interface for managing and organizing movies, making it easy to search and find titles, genres, and release dates. Radarr also supports metadata management, including movie posters and information, making it easy for users to keep their movie collection organized and up-to-date. The software is designed to be easy to use and provides a simple and intuitive interface for managing and organizing movie collections, making it a valuable tool for movie enthusiasts who want to keep their collection organized and up-to-date. With Radarr, users can enjoy their movie collection from anywhere, making it a powerful tool for managing and sharing movie files.",
