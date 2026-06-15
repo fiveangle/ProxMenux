@@ -7685,6 +7685,36 @@
     "os": ""
   },
   {
+    "name": "Kiwix",
+    "slug": "kiwix",
+    "desc": "Offline content browser serving Wikipedia, Project Gutenberg, and more from ZIM archives",
+    "script": "ct/kiwix.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/kiwix.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/kiwix.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00000"
+    ],
+    "category_names": [
+      "Miscellaneous"
+    ],
+    "notes": [],
+    "port": 8080,
+    "website": "https://www.kiwix.org",
+    "documentation": "https://wiki.kiwix.org",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/kiwix.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
     "name": "Koel",
     "slug": "koel",
     "desc": "Koel is a simple web-based personal audio streaming service written in Vue and Laravel. It supports multiple users, audio visualization, smart playlists, YouTube integration, and Last.fm scrobbling.",
